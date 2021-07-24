@@ -115,6 +115,7 @@ const routes = [
 const router = new VueRouter({
   routes,
   mode: "history",
+  base: "/Practice_Vue/",
 });
 
 export default router;
