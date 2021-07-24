@@ -1,5 +1,7 @@
 module.exports = {
-  transpileDependencies: [
-    'vuetify'
-  ]
-}
+  transpileDependencies: ["vuetify"],
+};
+module.exports = {
+  publicPath: "/Practice_Vue",
+  outputDir: "docs",
+};
