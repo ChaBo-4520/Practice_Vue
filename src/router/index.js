@@ -28,7 +28,7 @@ VueRouter.prototype.push = function push(location) {
 };
 Vue.use(VueRouter);
 const routes = [
-  { path: "/", name: "Home", component: HelloWorld },
+  { path: "/Practice_Vue", name: "Home", component: HelloWorld },
   { path: "/slotParent", name: "slot-Parent", component: slotParent },
   { path: "/exDashBoard", name: "ex-DashBoard", component: exDashBoard },
   {
