@@ -28,7 +28,7 @@ VueRouter.prototype.push = function push(location) {
 };
 Vue.use(VueRouter);
 const routes = [
-  { path: "/Practice_Vue", name: "Home", component: HelloWorld },
+  { path: "/", name: "Home", component: HelloWorld },
   { path: "/slotParent", name: "slot-Parent", component: slotParent },
   { path: "/exDashBoard", name: "ex-DashBoard", component: exDashBoard },
   {
@@ -115,7 +115,6 @@ const routes = [
 const router = new VueRouter({
   routes,
   mode: "history",
-  base: "/Practice_Vue/",
 });
 
 export default router;
