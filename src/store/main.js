@@ -72,6 +72,10 @@ export default {
         title: "Hoisting",
         name: "hoisting",
       },
+      {
+        title: "VueLifeCycle",
+        name: "vueLifeCycle",
+      },
     ],
   },
 };
